@@ -1,0 +1,59 @@
+[
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "SECURITY.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "skills/gemma-dev/SKILL.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "skills/gemma-dev/assets/vertex-ai-app.py",
+    "dependencies": [
+      "transformers",
+      "AutoTokenizer",
+      "aiplatform",
+      "os",
+      "google.cloud"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "skills/gemma-dev/assets/gradio-app.py",
+    "dependencies": [
+      "Thread",
+      "transformers",
+      "threading",
+      "pipeline",
+      "gradio"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "skills/gemma-dev/assets/transformers-js-app.js",
+    "dependencies": [
+      "inquirer",
+      "cliProgress"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
